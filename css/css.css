@@ -1,0 +1,201 @@
+#header{
+background: url(gambar/smk2.jpg) repeat-x #555;
+height : auto;
+width : 220px;
+padding:5px;
+margin : 20px 0;
+overflow : hidden;
+}
+
+#inline{
+    display: inline-block;
+}
+
+.green{
+    background-color: #89C236;
+    border-radius: 4px;
+    padding: 6px 15px;
+    color: white;
+}
+
+.red{
+    background-color: #EE5F5B;
+    border-radius: 4px;
+    padding: 6px 15px;
+    color: white;
+}
+
+.blue{
+    background-color: #007ACC;
+    border-radius: 4px;
+    padding: 6px 15px;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.img{
+    float: left;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 180px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.panel{
+    width: 228px;
+    height: 403px;
+    background-color: white;
+}
+.tabel{
+    border-collapse: collapse;
+    width: 100%;
+}
+.td,.th{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tr:hover{background-color:#f5f5f5}
+
+input[type=text],select {
+    padding: 3px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 6px 15px;
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=reset]:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+vid:hover{
+    background-color:#F1F1F1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #89C236;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: 0bb80b;
+}
+#menu-utama{
+margin:0;
+list-style:none;
+}
+#menu-utama li{
+float:left;
+padding:8px 20px;
+border-right:1px solid #555555;
+}
+#menu-utama li a{
+color : #ffffff;
+text-decoration:none;
+}
+#header form{
+float:right;
+margin-top:7px;
+margin-right: 10px;
+}
+#wrapper{
+	width : 780px;
+	margin : 0 auto; /* agar wrapper tetap berada di tengah*/
+	overflow:hidden;
+}
+#konten{
+width: 1310px;
+height:auto;
+margin: 0 0px 0px 0;
+padding: 15px;
+background-color: #FFFFFF;
+border: 1px solid #e7e7e7;
+}
+body{
+	background-color:#fbfbf7;
+}
+.container { 
+width: 1342px; 
+padding: 0 0 1px 0; margin: 0px 0 1px 0; background: #fff; } 
+#nav { margin: 0; padding: 0; border-top: 3px solid #89C236; } 
+#nav li { height:auto; margin: 0; padding: 0; display: inline; list-style-type: none; } 
+#nav a:link, #nav a:visited { float: left; font:  9pt verdana; line-height: 23px; padding: 9px; text-decoration: none; color: #708491; } 
+#nav a:link.active, #nav a:visited.active, #nav a:hover { color: white; background-color:#89C236; ) no-repeat top center; border-top: 4px solid #89C236; }
+
+
